@@ -53,7 +53,8 @@ object HomepageExtractorConfig
         "pl" -> "(?:Linki zewnętrzne|Link zewnętrzny)",
         "pt" -> "(?:Ligações externas|Ligação externa|Links externos|Link externo)",
         "ru" -> "Ссылки",
-        "uk" -> "Посилання"
+        "uk" -> "Посилання",
+        "id" -> "Pranala luar"
     )
 
     def externalLinkSections(lang : String) : String = {

@@ -202,6 +202,12 @@ object ParserUtilsConfig
             "більйон" -> 9,
             "трильйон" -> 12,
             "трлн"-> 12
+        ),
+        "id" -> Map(
+            "ribu" -> 3,
+            "juta" -> 6,
+            "miliar" -> 9,
+            "triliun" -> 12
         )
     )
     

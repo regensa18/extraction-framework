@@ -21379,6 +21379,21 @@ Template Properties not mapped yet:
 	{{PropertyMapping | templateProperty = leader_name4 | ontologyProperty = personName}}
 	{{PropertyMapping | templateProperty = leader_title4 | ontologyProperty = title}}
 	}}
+}}</text></revision></page><page><title>Mapping en:Infobox outbreak</title><ns>204</ns><id>12294</id><revision><id>53618</id><timestamp>2020-04-10T06:39:26Z</timestamp><text>{{TemplateMapping 
+| mapToClass = Outbreak
+| mappings = 
+   {{ PropertyMapping | templateProperty = name| ontologyProperty = name}} 
+   {{ PropertyMapping | templateProperty = website| ontologyProperty = websiteLabel}} 
+   {{ PropertyMapping | templateProperty = confirmed_cases| ontologyProperty = confirmedCases}} 
+   {{ PropertyMapping | templateProperty = active_cases | ontologyProperty = activeCases}} 
+   {{ PropertyMapping | templateProperty = suspected_cases| ontologyProperty = suspectedCases}} 
+   {{ PropertyMapping | templateProperty = severe_cases | ontologyProperty = severeCases}} 
+   {{ PropertyMapping | templateProperty = recovery_cases | ontologyProperty = recoveryCases}} 
+   {{ PropertyMapping | templateProperty = deaths | ontologyProperty = pendamicDeaths}} 
+   {{ PropertyMapping | templateProperty = fatality_rate | ontologyProperty = fatalityRate}} 
+   {{ PropertyMapping | templateProperty = total_ili | ontologyProperty = totalIliCases}} 
+
+
 }}</text></revision></page><page><title>Mapping en:Infobox pageant titleholder</title><ns>204</ns><id>6180</id><revision><id>20763</id><timestamp>2012-12-23T14:34:05Z</timestamp><text>{{TemplateMapping
 | mapToClass = BeautyQueen
 | mappings =

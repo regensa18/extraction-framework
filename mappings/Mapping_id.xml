@@ -905,6 +905,16 @@
     {{PropertyMapping | templateProperty = footnotes | ontologyProperty = ??? }}
     {{PropertyMapping | templateProperty = box_width | ontologyProperty = ??? }}
     --&gt;
+}}</text></revision></page><page><title>Mapping id:Infobox Planet</title><ns>254</ns><id>12304</id><revision><id>53619</id><timestamp>2020-05-06T08:18:59Z</timestamp><text>{{TemplateMapping
+| mapToClass = Planet
+| mappings =
+    {{PropertyMapping | templateProperty = name | ontologyProperty = foaf:name }}
+    {{PropertyMapping | templateProperty = escape_velocity | ontologyProperty = escapeVelocity }}
+    {{PropertyMapping | templateProperty = abs_magnitude | ontologyProperty = absoluteMagnitude }}
+    {{PropertyMapping | templateProperty = eccentricity | ontologyProperty = orbitalEccentricity }}
+    {{PropertyMapping | templateProperty = epoch | ontologyProperty = epoch }}
+    {{PropertyMapping | templateProperty = period | ontologyProperty = orbitalPeriod }}
+    {{PropertyMapping | templateProperty = discovered | ontologyProperty = discovered }}
 }}</text></revision></page><page><title>Mapping id:Infobox Pulau</title><ns>254</ns><id>6566</id><revision><id>24258</id><timestamp>2013-03-07T07:54:17Z</timestamp><text>{{TemplateMapping
 | mapToClass = Island
 | mappings =
@@ -1896,11 +1906,11 @@
     {{PropertyMapping | templateProperty = age | ontologyProperty = ??? }} 
     {{PropertyMapping | templateProperty = coordinates_ref | ontologyProperty = ??? }} 
     --&gt;
-}}</text></revision></page><page><title>Mapping id:Infobox musical artist</title><ns>254</ns><id>6595</id><revision><id>24378</id><timestamp>2013-03-14T04:07:53Z</timestamp><text>{{TemplateMapping
+}}</text></revision></page><page><title>Mapping id:Infobox musical artist</title><ns>254</ns><id>6595</id><revision><id>53620</id><timestamp>2020-05-07T05:31:35Z</timestamp><text>{{TemplateMapping
 | mapToClass = MusicalArtist
 | mappings =
     {{PropertyMapping | templateProperty = Name | ontologyProperty = foaf:name }} 
-    {{PropertyMapping | templateProperty = nama | ontologyProperty = foaf:name }} 
+    {{PropertyMapping | templateProperty = name | ontologyProperty = foaf:name }} 
     {{PropertyMapping | templateProperty = Img | ontologyProperty = picture }} 
     {{PropertyMapping | templateProperty = Birth_name | ontologyProperty = birthName }}
     {{PropertyMapping | templateProperty = Alias | ontologyProperty = foaf:name }}
@@ -1910,10 +1920,12 @@
     {{PropertyMapping | templateProperty = asal | ontologyProperty = origin }}
     {{PropertyMapping | templateProperty = Instrument | ontologyProperty = instrument  }}
     {{PropertyMapping | templateProperty = Genre | ontologyProperty = genre }}
+    {{PropertyMapping | templateProperty = genre | ontologyProperty = genre }}
     {{PropertyMapping | templateProperty = Occupation | ontologyProperty = occupation }}
     {{PropertyMapping | templateProperty = URL | ontologyProperty = foaf:homepage }}
     {{PropertyMapping | templateProperty = situs | ontologyProperty = foaf:homepage }}
     {{PropertyMapping | templateProperty = Notable_instruments | ontologyProperty = instrument }}
+    {{PropertyMapping | templateProperty = associated_acts | ontologyProperty = associatedAct }}
     
     &lt;!--
     {{PropertyMapping | templateProperty = Img_capt | ontologyProperty = ??? }} 

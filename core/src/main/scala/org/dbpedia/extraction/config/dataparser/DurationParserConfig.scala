@@ -321,6 +321,6 @@ object DurationParserConfig
             "hari" -> "day",
             "bulan" -> "month",
             "tahun" -> "year"
-		)
+		    )
     )
 }
